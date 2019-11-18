@@ -56,7 +56,7 @@ index 3d7f801..706d93b 100644<br/>
    This option allows you to define a manual override condition as a regular<br/>
    expression for the remote IP address. The keys `overwritewebroot`,<br/>
    //////////////////////////////////////////////////<br/>
-// this show us the path of admin log in is /S3cR3tPaTh/<br/>
+// this show us the path of admin login is /S3cR3tPaTh/<br/>
 /////////////////////////////////////////////////////////<br/>
 root@cloudshell:/172.105.76.128/.gitgit show 5b9e491<br/>
 commit 5b9e491802d53d6af1ef25206ccb0765b64a248b<br/>
