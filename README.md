@@ -15,7 +15,9 @@ root@cloudshell:/172.105.76.128 cd .git/<br/>
 root@cloudshell:/172.105.76.128/.git ls <br/>
 branches        config       HEAD   index       index.html?C=D;O=A  index.html?C=M;O=A  index.html?C=N;O=A  index.html?C=S;O=A  info  objects<br/>
 COMMIT_EDITMSG  description  hooks  index.html  index.html?C=D;O=D  index.html?C=M;O=D  index.html?C=N;O=D  index.html?C=S;O=D  logs <br/> refs<br/>
+//////////////////////////////////////////<br/>
 // let's check the commits<br/>
+//////////////////////////////////////////<br/>
 root@cloudshell:/172.105.76.128/.git git reflog<br/>
 2e3e1a8 HEAD@{0}: commit: Refining<br/>
 89329fa HEAD@{1}: commit: NewFeature<br/>
@@ -53,7 +55,9 @@ index 3d7f801..706d93b 100644<br/>
    Override condition<br/>
    This option allows you to define a manual override condition as a regular<br/>
    expression for the remote IP address. The keys `overwritewebroot`,<br/>
+   //////////////////////////////////////////////////<br/>
 // this show us the path of admin log in is /S3cR3tPaTh/<br/>
+/////////////////////////////////////////////////////////<br/>
 root@cloudshell:/172.105.76.128/.gitgit show 5b9e491<br/>
 commit 5b9e491802d53d6af1ef25206ccb0765b64a248b<br/>
 Author: Ben ALaa <a.alaa@egcert.eg>
