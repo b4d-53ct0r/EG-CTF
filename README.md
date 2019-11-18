@@ -31,7 +31,7 @@ commit 2e3e1a8c124768ecbb31e92d5c070003924b9254<br/>
 Author: Ben ALaa <a.alaa@egcert.eg><br/>
 Date:   Thu Nov 14 23:18:26 2019 +0100 <br/>
 
-    Refining <br/>
+    Refining 
 <br/>
 diff --git a/S3cR3tPaTh/config.php b/S3cR3tPaTh/config.php<br/>
 index 3d7f801..706d93b 100644<br/>
